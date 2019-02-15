@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
       low_key << key
     else
       low_key = nil 
+    end
   end
   low_key
 end
